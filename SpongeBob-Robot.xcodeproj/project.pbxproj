@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D56812762D3329A000EAC83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D568125C2D33299F00EAC83C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56812632D33299F00EAC83C;
+			remoteInfo = "SpongeBob-Robot";
+		};
+		D56812802D3329A000EAC83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D568125C2D33299F00EAC83C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56812632D33299F00EAC83C;
+			remoteInfo = "SpongeBob-Robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D56812642D33299F00EAC83C /* SpongeBob-Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpongeBob-Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56812752D3329A000EAC83C /* SpongeBob-RobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpongeBob-RobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D568127F2D3329A000EAC83C /* SpongeBob-RobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpongeBob-RobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D56812662D33299F00EAC83C /* SpongeBob-Robot */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SpongeBob-Robot";
+			sourceTree = "<group>";
+		};
+		D56812782D3329A000EAC83C /* SpongeBob-RobotTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SpongeBob-RobotTests";
+			sourceTree = "<group>";
+		};
+		D56812822D3329A000EAC83C /* SpongeBob-RobotUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SpongeBob-RobotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D56812612D33299F00EAC83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56812722D3329A000EAC83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D568127C2D3329A000EAC83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D568125B2D33299F00EAC83C = {
+			isa = PBXGroup;
+			children = (
+				D56812662D33299F00EAC83C /* SpongeBob-Robot */,
+				D56812782D3329A000EAC83C /* SpongeBob-RobotTests */,
+				D56812822D3329A000EAC83C /* SpongeBob-RobotUITests */,
+				D56812652D33299F00EAC83C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D56812652D33299F00EAC83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56812642D33299F00EAC83C /* SpongeBob-Robot.app */,
+				D56812752D3329A000EAC83C /* SpongeBob-RobotTests.xctest */,
+				D568127F2D3329A000EAC83C /* SpongeBob-RobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D56812632D33299F00EAC83C /* SpongeBob-Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56812892D3329A000EAC83C /* Build configuration list for PBXNativeTarget "SpongeBob-Robot" */;
+			buildPhases = (
+				D56812602D33299F00EAC83C /* Sources */,
+				D56812612D33299F00EAC83C /* Frameworks */,
+				D56812622D33299F00EAC83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D56812662D33299F00EAC83C /* SpongeBob-Robot */,
+			);
+			name = "SpongeBob-Robot";
+			packageProductDependencies = (
+			);
+			productName = "SpongeBob-Robot";
+			productReference = D56812642D33299F00EAC83C /* SpongeBob-Robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D56812742D3329A000EAC83C /* SpongeBob-RobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D568128C2D3329A000EAC83C /* Build configuration list for PBXNativeTarget "SpongeBob-RobotTests" */;
+			buildPhases = (
+				D56812712D3329A000EAC83C /* Sources */,
+				D56812722D3329A000EAC83C /* Frameworks */,
+				D56812732D3329A000EAC83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56812772D3329A000EAC83C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D56812782D3329A000EAC83C /* SpongeBob-RobotTests */,
+			);
+			name = "SpongeBob-RobotTests";
+			packageProductDependencies = (
+			);
+			productName = "SpongeBob-RobotTests";
+			productReference = D56812752D3329A000EAC83C /* SpongeBob-RobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D568127E2D3329A000EAC83C /* SpongeBob-RobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D568128F2D3329A000EAC83C /* Build configuration list for PBXNativeTarget "SpongeBob-RobotUITests" */;
+			buildPhases = (
+				D568127B2D3329A000EAC83C /* Sources */,
+				D568127C2D3329A000EAC83C /* Frameworks */,
+				D568127D2D3329A000EAC83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56812812D3329A000EAC83C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D56812822D3329A000EAC83C /* SpongeBob-RobotUITests */,
+			);
+			name = "SpongeBob-RobotUITests";
+			packageProductDependencies = (
+			);
+			productName = "SpongeBob-RobotUITests";
+			productReference = D568127F2D3329A000EAC83C /* SpongeBob-RobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D568125C2D33299F00EAC83C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D56812632D33299F00EAC83C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D56812742D3329A000EAC83C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D56812632D33299F00EAC83C;
+					};
+					D568127E2D3329A000EAC83C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D56812632D33299F00EAC83C;
+					};
+				};
+			};
+			buildConfigurationList = D568125F2D33299F00EAC83C /* Build configuration list for PBXProject "SpongeBob-Robot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D568125B2D33299F00EAC83C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D56812652D33299F00EAC83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D56812632D33299F00EAC83C /* SpongeBob-Robot */,
+				D56812742D3329A000EAC83C /* SpongeBob-RobotTests */,
+				D568127E2D3329A000EAC83C /* SpongeBob-RobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D56812622D33299F00EAC83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56812732D3329A000EAC83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D568127D2D3329A000EAC83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D56812602D33299F00EAC83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56812712D3329A000EAC83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D568127B2D3329A000EAC83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D56812772D3329A000EAC83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56812632D33299F00EAC83C /* SpongeBob-Robot */;
+			targetProxy = D56812762D3329A000EAC83C /* PBXContainerItemProxy */;
+		};
+		D56812812D3329A000EAC83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56812632D33299F00EAC83C /* SpongeBob-Robot */;
+			targetProxy = D56812802D3329A000EAC83C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D56812872D3329A000EAC83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D56812882D3329A000EAC83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D568128A2D3329A000EAC83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SpongeBob-Robot/SpongeBob_Robot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpongeBob-Robot/Preview Content\"";
+				DEVELOPMENT_TEAM = A8DDU56C38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicoihle.SpongeBob-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D568128B2D3329A000EAC83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SpongeBob-Robot/SpongeBob_Robot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpongeBob-Robot/Preview Content\"";
+				DEVELOPMENT_TEAM = A8DDU56C38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicoihle.SpongeBob-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D568128D2D3329A000EAC83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8DDU56C38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicoihle.SpongeBob-RobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpongeBob-Robot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpongeBob-Robot";
+			};
+			name = Debug;
+		};
+		D568128E2D3329A000EAC83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8DDU56C38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicoihle.SpongeBob-RobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpongeBob-Robot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpongeBob-Robot";
+			};
+			name = Release;
+		};
+		D56812902D3329A000EAC83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8DDU56C38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicoihle.SpongeBob-RobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SpongeBob-Robot";
+			};
+			name = Debug;
+		};
+		D56812912D3329A000EAC83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8DDU56C38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicoihle.SpongeBob-RobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SpongeBob-Robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D568125F2D33299F00EAC83C /* Build configuration list for PBXProject "SpongeBob-Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56812872D3329A000EAC83C /* Debug */,
+				D56812882D3329A000EAC83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56812892D3329A000EAC83C /* Build configuration list for PBXNativeTarget "SpongeBob-Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D568128A2D3329A000EAC83C /* Debug */,
+				D568128B2D3329A000EAC83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D568128C2D3329A000EAC83C /* Build configuration list for PBXNativeTarget "SpongeBob-RobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D568128D2D3329A000EAC83C /* Debug */,
+				D568128E2D3329A000EAC83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D568128F2D3329A000EAC83C /* Build configuration list for PBXNativeTarget "SpongeBob-RobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56812902D3329A000EAC83C /* Debug */,
+				D56812912D3329A000EAC83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D568125C2D33299F00EAC83C /* Project object */;
+}
